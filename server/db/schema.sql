@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS rooms;
+DROP TABLE IF EXISTS configs;
+
+CREATE TABLE configs (
+    id INTEGER,
+    nvl_luminosidade INTEGER DEFAULT 500,
+    autosystem INTEGER DEFAULT 1
+);
+
+CREATE TABLE rooms (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    room_name TEXT NOT NULL
+);

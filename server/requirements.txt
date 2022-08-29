@@ -1,0 +1,5 @@
+Flask==2.1.2
+playsound==1.2.2
+Werkzeug==2.1.2
+pysqlite3==0.4.7
+pyserial==3.5
